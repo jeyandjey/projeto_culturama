@@ -19,7 +19,7 @@
         <input type="text" name="UserName" id="UserName" required>
         <br>
         
-        <label for="UserAge">Idade:</label>
+        <label for="Age">Idade:</label>
         <input type="number" name="Age" id="Age" required min="12" max="100"> <br>
 
         <label for="Birthdate">Data de Nascimento:</label>
@@ -62,42 +62,60 @@
     <option value="divorced">Divorciado(a)</option>
     <option value="widowed">Viúvo(a)</option>
 </select>
+<br>
 
 <fieldset>
-    <legend>Estado e Cidade</legend>
+ 
+    <legend >Estado e Cidade</legend>
 <select name="state" id="state" required>
 
-        <option value="aC">Acre (AC) </option>
-        <option value="aL">Alagoas (AL) </option>
-        <option value="aP">Amapá (AP) </option>
-        <option value="aM">Amazonas (AM) </option>
-        <option value="bA">Bahia (BA) </option>
-        <option value="cE">Ceará (CE) </option>
-        <option value="dF">Distrito Federal (DF) </option>
-        <option value="eS">Espírito Santo (ES) </option>
-        <option value="gO">Goiás (GO) </option>
-        <option value="mA">Maranhão (MA) </option>
-        <option value="mT">Mato Grosso (MT) </option>
-        <option value="mS">Mato Grosso do Sul (MS) </option>
-        <option value="mG">Minas Gerais (MG) </option>
-        <option value="pA">Pará (PA) </option>
-        <option value="pB">Paraíba (PB) </option>
-        <option value="pR">Paraná (PR) </option>
-        <option value="pE">Pernambuco (PE) </option>
-        <option value="pI">Piauí (PI) </option>
-        <option value="rJ">Rio de Janeiro (RJ) </option>
-        <option value="rN">Rio Grande do Norte (RN) </option>
-        <option value="rS">Rio Grande do Sul (RS) </option>
-        <option value="rO">Rondônia (RO) </option>
-        <option value="rR">Roraima (RR) </option>
-        <option value="sC">Santa Catarina (SC) </option>
-        <option value="sP">São Paulo (SP) </option>
-        <option value="sE">Sergipe (SE) </option>
-        <option value="tO">Tocantins (TO) </option>
+        <option value="AC">Acre (AC) </option>
+        <option value="AL">Alagoas (AL) </option>
+        <option value="AP">Amapá (AP) </option>
+        <option value="AM">Amazonas (AM) </option>
+        <option value="BA">Bahia (BA) </option>
+        <option value="CE">Ceará (CE) </option>
+        <option value="DF">Distrito Federal (DF) </option>
+        <option value="ES">Espírito Santo (ES) </option>
+        <option value="GO">Goiás (GO) </option>
+        <option value="MA">Maranhão (MA) </option>
+        <option value="MT">Mato Grosso (MT) </option>
+        <option value="MS">Mato Grosso do Sul (MS) </option>
+        <option value="MG">Minas Gerais (MG) </option>
+        <option value="PA">Pará (PA) </option>
+        <option value="PB">Paraíba (PB) </option>
+        <option value="PR">Paraná (PR) </option>
+        <option value="PE">Pernambuco (PE) </option>
+        <option value="PI">Piauí (PI) </option>
+        <option value="RJ">Rio de Janeiro (RJ) </option>
+        <option value="RN">Rio Grande do Norte (RN) </option>
+        <option value="RS">Rio Grande do Sul (RS) </option>
+        <option value="RO">Rondônia (RO) </option>
+        <option value="RR">Roraima (RR) </option>
+        <option value="SC">Santa Catarina (SC) </option>
+        <option value="SP">São Paulo (SP) </option>
+        <option value="SE">Sergipe (SE) </option>
+        <option value="TO">Tocantins (TO) </option>
 </select>
 
 <label for="UserCity">Cidade:</label>
+</fildset>
 <input type="text" name="city" id="city" placeholder="Cidade">
+
+<fildset>
+    
+<legend>Habitos</legend>
+<p>Redes Sociais</p>
+<input type="checkbox" name="social" id="instagram" value="instagram">
+<label for="instagram">Instagram</label>
+<br>
+<input type="checkbox" name="social" id="facebook" value="facebook">
+<label for="facebook">Facebook</label>
+<br>
+<input type="checkbox" name="social" id="twitter" value="twitter">
+<label for="twitter">Twitter</label>
+
+</fieldset>
 
     <button type="submit">Enviar</button>
     </form>
