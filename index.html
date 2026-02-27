@@ -38,8 +38,68 @@
         <input type="file" name="Image" id="UserImage" accept="image/*">
         <br>
 
-        <button type="submit">Enviar</button>
         </fildset>
+
+        <fildset>
+            <legend>Perfil</legend>
+            <p>Gênero:</p>
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">Masculino</label>
+
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">Feminino</label>
+
+<input type="radio" name="gender" id="other" value="other">
+<label for="other">Outro</label>
+<br>
+
+<label for="maritalstatus">Estado Civil:</label>
+
+<select name="maritalstatus" id="maritalstatus">
+    <option value="notInformed">Selecione o estado civil</option>
+    <option value="single">Solteiro(a)</option>
+    <option value="married">Casado(a)</option>
+    <option value="divorced">Divorciado(a)</option>
+    <option value="widowed">Viúvo(a)</option>
+</select>
+
+<fieldset>
+    <legend>Estado e Cidade</legend>
+<select name="state" id="state">
+
+        <option value="AC">Acre (AC) </option>
+        <option value="AL">Alagoas (AL) </option>
+        <option value="AP">Amapá (AP) </option>
+        <option value="AM">Amazonas (AM) </option>
+        <option value="BA">Bahia (BA) </option>
+        <option value="CE">Ceará (CE) </option>
+        <option value="DF">Distrito Federal (DF) </option>
+        <option value="ES">Espírito Santo (ES) </option>
+        <option value="GO">Goiás (GO) </option>
+        <option value="MA">Maranhão (MA) </option>
+        <option value="MT">Mato Grosso (MT) </option>
+        <option value="MS">Mato Grosso do Sul (MS) </option>
+        <option value="MG">Minas Gerais (MG) </option>
+        <option value="PA">Pará (PA) </option>
+        <option value="PB">Paraíba (PB) </option>
+        <option value="PR">Paraná (PR) </option>
+        <option value="PE">Pernambuco (PE) </option>
+        <option value="PI">Piauí (PI) </option>
+        <option value="RJ">Rio de Janeiro (RJ) </option>
+        <option value="RN">Rio Grande do Norte (RN) </option>
+        <option value="RS">Rio Grande do Sul (RS) </option>
+        <option value="RO">Rondônia (RO) </option>
+        <option value="RR">Roraima (RR) </option>
+        <option value="SC">Santa Catarina (SC) </option>
+        <option value="SP">São Paulo (SP) </option>
+        <option value="SE">Sergipe (SE) </option>
+        <option value="TO">Tocantins (TO) </option>
+</select>
+
+<label for="UserCity">Cidade:</label>
+<input type="text" name="city" id="city" placeholder="Cidade">
+
+    <button type="submit">Enviar</button>
     </form>
 </section>
 
