@@ -101,7 +101,7 @@
 <input type="text" name="city" id="city" placeholder="Cidade">
 
 <fildset>
-    
+
 <legend>Habitos</legend>
 <p>Redes Sociais</p>
 <input type="checkbox" name="social" id="instagram" value="instagram">
@@ -113,6 +113,15 @@
 <input type="checkbox" name="social" id="twitter" value="twitter">
 <label for="twitter">Twitter</label>
 
+<label for="musicStyle">Estilo Musical:</label>
+<input type="text" name="UserMusicStyle" id="musicStyle" list="stylesTypes" placeholder="Selecione ou digite seu estilo musical favorito">
+<datalist id="stylesTypes">
+    <option value="Rock">
+    <option value="Pop">
+    <option value="Hip-Hop">
+    <option value="Eletrônica">
+    <option value="Samba">
+</datalist>
 </fieldset>
 
     <button type="submit">Enviar</button>
