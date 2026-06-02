@@ -39,11 +39,13 @@
         <input type="email" id="UserEmail" required maxlength="20"><br>
 
         <label for="UserPhoneNumber">Telefone:</label>
-        <small>Preencha com 11 digitos no formato (DDD)9XXXXXXXX</small>
+        
     <input type="tel" id="UserPhoneNumber" pattern="{8-9}{11}" placeholder="(DDD) 9XXXXXXXX" aria-describedby="phonehelp" oninput="this.value=this.value.slice(0,11)"><br>
-
-        <label for="UserImage">Foto:</label>
-        <input type="file" id="UserImage" accept="image/*">
+    <small>Preencha com 11 digitos no formato (DDD)9XXXXXXXX</small>
+    <br>
+    <label for="UserImage">Foto:</label>
+        <input type="file" id="UserImage" accept="image/*" aria-describedby="imagehelp"><br>
+    <small>Envie uma foto no formato JPG ou PNG</small>
     </fieldset>
 
     <!-- PERFIL -->
